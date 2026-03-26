@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Medical Affairs Consulting</title>
+  <meta name="description" content="MAC è il partner di riferimento per farmacovigilanza, informazione medica e consulenza Kaizen. Dal 2001 al servizio delle aziende farmaceutiche italiane ed europee.">
+  <meta name="keywords" content="farmacovigilanza, pharmacovigilance, EU-QPPV, PSUR, PBRER, medical affairs, informazione medica, Kaizen, AIFA, EMA">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Medical Affairs Consulting — Farmacovigilanza e Medical Affairs">
+  <meta property="og:description" content="Il vostro partner di riferimento per farmacovigilanza, informazione medica e consulenza Kaizen dal 2001.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.med-af-consulting.com">
+  <meta property="og:image" content="img/og-image.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="img/icona_MAC.ico">
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Preload font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/animations.css">
+
+  <!-- Hreflang -->
+  <link rel="alternate" hreflang="it" href="https://www.med-af-consulting.com/">
+  <link rel="alternate" hreflang="en" href="https://www.med-af-consulting.com/en/">
+</head>
+<body>
+
+<!-- Barra progresso scroll -->
+<div class="scroll-progress" aria-hidden="true"></div>
+
+<!-- ============================================================
+     NAVBAR
+     ============================================================ -->
+<header>
+  <nav class="navbar" role="navigation" aria-label="Navigazione principale">
+    <div class="navbar__inner">
+      <!-- Logo -->
+      <a href="index.html" class="navbar__logo" aria-label="Medical Affairs Consulting — Home">
+        <img src="img/mac-logo.png" alt="MAC — Medical Affairs Consulting" width="180" height="44">
+      </a>
+
+      <!-- Menu desktop -->
+      <ul class="navbar__menu" role="list">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="chi-siamo.html">Chi siamo</a></li>
+        <li><a href="servizi.html">Servizi</a></li>
+        <li><a href="qualita.html">Qualità</a></li>
+        <li class="navbar__has-dropdown">
+          <button class="navbar__dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            Risorse
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="6 9 12 15 18 9"></polyline></svg>
+          </button>
+          <ul class="navbar__dropdown" role="menu">
+            <li role="none"><a href="blog.html" role="menuitem">Blog</a></li>
+            <li role="none"><a href="calendario.html" role="menuitem">Calendario</a></li>
+          </ul>
+        </li>
+        <li><a href="contatti.html">Contatti</a></li>
+      </ul>
+
+      <!-- Azioni destra -->
+      <div class="navbar__actions">
+        <div class="lang-switcher" aria-label="Seleziona lingua">
+          <a href="index.html" class="active" lang="it">IT</a>
+          <span aria-hidden="true">|</span>
+          <a href="en/index.html" lang="en">EN</a>
+        </div>
+        <a href="contatti.html" class="btn btn--primary">Contattaci</a>
+      </div>
+
+      <!-- Hamburger mobile -->
+      <button class="navbar__hamburger" aria-label="Apri menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Menu mobile -->
+  <div class="navbar__mobile" role="dialog" aria-label="Menu mobile">
+    <a href="index.html">Home</a>
+    <a href="chi-siamo.html">Chi siamo</a>
+    <a href="servizi.html">Servizi</a>
+    <a href="qualita.html">Qualità</a>
+    <span class="navbar__mobile-group">Risorse</span>
+    <a href="blog.html" class="navbar__mobile-sub">Blog</a>
+    <a href="calendario.html" class="navbar__mobile-sub">Calendario</a>
+    <a href="contatti.html">Contatti</a>
+    <a href="faq.html">FAQ</a>
+    <div class="lang-switcher mt-4">
+      <a href="index.html" class="active">IT</a>
+      <span>|</span>
+      <a href="en/index.html">EN</a>
+    </div>
+    <a href="contatti.html" class="btn btn--primary">Contattaci</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============================================================
+       1. HERO
+       ============================================================ -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero__bg"></div>
+    <div class="hero__bg-image" aria-hidden="true"></div>
+    <div class="hero__bg-overlay" aria-hidden="true"></div>
+
+
+
+    <div class="hero__content">
+      <p class="hero__eyebrow">Dal 2001 — Farmacovigilanza &amp; Medical Affairs</p>
+
+      <h1 class="hero__title" id="hero-title">
+        Il vostro partner in Farmacovigilanza
+        <span class="text-highlight"> e Medical Affairs</span>
+      </h1>
+
+      <p class="hero__subtitle">
+        Supportiamo titolari di AIC, sponsor e aziende farmaceutiche con servizi specializzati di farmacovigilanza, informazione medica e applicazione del metodo Kaizen per tutto il ciclo di vita del farmaco.
+      </p>
+
+      <div class="hero__cta">
+        <a href="contatti.html" class="btn btn--primary btn--lg">
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          Contattaci oggi
+        </a>
+        <a href="servizi.html" class="btn btn--outline btn--lg">
+          Scopri i servizi
+          <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+        </a>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- ============================================================
+       2. STATS BAR
+       ============================================================ -->
+  <section class="stats-bar" aria-label="Dati chiave">
+    <div class="container">
+      <div class="stats-bar__grid">
+        <div class="stats-bar__item reveal">
+          <span class="stats-bar__label stats-bar__label--title">Fiducia</span>
+          <span class="stats-bar__number" data-count="10" data-prefix="+" data-suffix=" anni">+10 anni</span>
+          <p class="stats-bar__label">di collaborazione con i nostri key clients</p>
+        </div>
+        <div class="stats-bar__item reveal reveal-delay-1">
+          <span class="stats-bar__label stats-bar__label--title">Aree di expertise</span>
+          <span class="stats-bar__number accent" data-count="10" data-prefix="+">+10</span>
+          <p class="stats-bar__label">aree multidisciplinari nel team</p>
+        </div>
+        <div class="stats-bar__item reveal reveal-delay-2">
+          <span class="stats-bar__label stats-bar__label--title">Esperienza</span>
+          <span class="stats-bar__number" data-count="25" data-prefix="+" data-suffix=" anni">+25 anni</span>
+          <p class="stats-bar__label">di esperienza nel settore farmaceutico</p>
+        </div>
+        <div class="stats-bar__item reveal reveal-delay-3">
+          <span class="stats-bar__label stats-bar__label--title">Kaizen</span>
+          <span class="stats-bar__number accent" data-count="300" data-prefix="+">+300</span>
+          <p class="stats-bar__label">idee annue di miglioramento dei processi</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       3. PERCHÉ SCEGLIERCI
+       ============================================================ -->
+  <section class="why-section section--bg" id="perche-sceglierci" aria-labelledby="why-title">
+    <div class="container">
+      <div class="why-section__inner">
+        <!-- Colonna sinistra -->
+        <div class="why-section__left">
+          <span class="section-label section-label--primary reveal">Perché sceglierci</span>
+          <h2 class="reveal reveal-delay-1" id="why-title">Eccellenza e affidabilità per la vostra azienda</h2>
+          <div class="section-divider reveal reveal-delay-2"></div>
+          <p class="reveal reveal-delay-2">
+            Dal 2001 affianchiamo le aziende farmaceutiche con un approccio su misura, combinando competenza regolatoria, efficienza operativa e cultura del miglioramento continuo.
+          </p>
+          <p class="reveal reveal-delay-3">
+            Il nostro team multidisciplinare garantisce continuità, qualità e conformità in ogni fase del ciclo di vita del farmaco.
+          </p>
+          <a href="chi-siamo.html" class="btn btn--outline mt-8 reveal reveal-delay-4">Scopri il team</a>
+        </div>
+
+        <!-- Colonna destra — lista caratteristiche -->
+        <div class="why-section__right">
+          <ul class="why-list" role="list">
+            <li class="why-list__item reveal-right">
+              <div class="why-list__line"></div>
+              <div class="why-list__content">
+                <h4>Esperienza pluridecennale</h4>
+                <p>Attivi dal 2001 nel settore della farmacovigilanza e medical affairs, con una profonda conoscenza del contesto normativo europeo e italiano.</p>
+              </div>
+            </li>
+            <li class="why-list__item reveal-right reveal-delay-1">
+              <div class="why-list__line why-list__line--accent"></div>
+              <div class="why-list__content">
+                <h4>Approccio su misura</h4>
+                <p>Ogni cliente ha esigenze uniche. Progettiamo soluzioni personalizzate, scalabili in funzione delle dimensioni e delle necessità dell'azienda.</p>
+              </div>
+            </li>
+            <li class="why-list__item reveal-right reveal-delay-2">
+              <div class="why-list__line"></div>
+              <div class="why-list__content">
+                <h4>Team multidisciplinare</h4>
+                <p>Medici, farmacisti, biologi, ingegneri e consulenti IT lavorano in sinergia per offrire un supporto completo e integrato.</p>
+              </div>
+            </li>
+            <li class="why-list__item reveal-right reveal-delay-3">
+              <div class="why-list__line why-list__line--accent"></div>
+              <div class="why-list__content">
+                <h4>Cultura Kaizen</h4>
+                <p>Il miglioramento continuo non è uno slogan: è il nostro metodo di lavoro quotidiano, con oltre 300 idee Kaizen implementate ogni anno.</p>
+              </div>
+            </li>
+            <li class="why-list__item reveal-right reveal-delay-4">
+              <div class="why-list__line"></div>
+              <div class="why-list__content">
+                <h4>Zero issues EMA</h4>
+                <p>Nessun rilievo nei PSUSA reviews da parte di EMA. Un risultato che testimonia la qualità e la precisione del nostro lavoro.</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       4. SERVIZI (ANTEPRIMA)
+       ============================================================ -->
+  <section class="section" id="servizi-preview" aria-labelledby="servizi-title">
+    <div class="container">
+      <div class="text-center mb-8">
+        <span class="section-label section-label--primary reveal">I nostri servizi</span>
+        <h2 class="reveal reveal-delay-1" id="servizi-title">Supporto completo per il ciclo di vita del farmaco</h2>
+        <div class="section-divider section-divider--center reveal reveal-delay-2"></div>
+        <p class="reveal reveal-delay-2" style="margin: 0 auto;">
+          Dalla gestione della farmacovigilanza alle attività di informazione medica: offriamo un supporto integrato e specializzato.
+        </p>
+      </div>
+
+      <div class="grid-2 service-cards" style="margin-top: 3rem;">
+
+        <!-- Card Farmacovigilanza -->
+        <article class="card card--service reveal">
+          <div class="card__header">
+            <div class="card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+            </div>
+            <h3 class="card__title">Farmacovigilanza</h3>
+          </div>
+          <p class="card__text">Gestiamo ogni aspetto della sicurezza del farmaco lungo tutto il suo ciclo di vita, con un approccio orientato alla qualità e alla conformità regolatoria.</p>
+          <ul class="card__list">
+            <li>EU-QPPV e PSMF — presidio regolatorio completo</li>
+            <li>ICSRs, SAEs, SUSARs e Eudravigilance</li>
+            <li>Rapporti periodici PSUR / PBRER</li>
+            <li>Signal detection e analisi del profilo rischio/beneficio</li>
+            <li>Audit interni e gap assessment su processi PV</li>
+          </ul>
+          <a href="servizi.html#farmacovigilanza" class="card__link">
+            Scopri di più
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </article>
+
+        <!-- Card Medical Affairs -->
+        <article class="card card--service reveal reveal-delay-1">
+          <div class="card__header">
+            <div class="card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path></svg>
+            </div>
+            <h3 class="card__title">Medical Affairs</h3>
+          </div>
+          <p class="card__text">Supportiamo le attività medico-scientifiche dell'azienda con un modello operativo strutturato, tracciabile e orientato al miglioramento delle performance.</p>
+          <ul class="card__list">
+            <li>Informazione medica — D.Lgs. 219/2006 art. 126</li>
+            <li>Supporto al Responsabile Servizio Scientifico</li>
+            <li>Gestione e analisi delle richieste mediche</li>
+            <li>Scientific exchange e rapporti con KOL</li>
+            <li>Review materiali scientifici e training team medico</li>
+          </ul>
+          <a href="servizi.html#informazione-medica" class="card__link">
+            Scopri di più
+            <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+        </article>
+
+      </div>
+
+      <div class="text-center mt-8 reveal">
+        <a href="servizi.html" class="btn btn--outline">Vedi tutti i servizi</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       5. IL METODO M.A.C.
+       ============================================================ -->
+  <section class="method-section" id="metodo" aria-labelledby="method-title">
+    <div class="container">
+      <div class="method-section__inner">
+        <!-- Testo -->
+        <div class="method-section__content">
+          <span class="section-label section-label--primary reveal">Il metodo M.A.C.</span>
+          <h2 class="reveal reveal-delay-1" id="method-title">
+            Persone, processi e <span class="text-highlight">miglioramento continuo</span>
+          </h2>
+          <div class="section-divider reveal reveal-delay-2"></div>
+          <p class="reveal reveal-delay-2">
+            <strong>La nostra mission:</strong> assicurare l'eccellenza nella Farmacovigilanza, Informazione Medica durante tutto il ciclo di vita del farmaco.
+          </p>
+          <p class="reveal reveal-delay-3">
+            <strong>I nostri valori:</strong> valorizziamo le persone come asset più importante. La loro curiosità ed energia sono il capitale intangibile che guida l'innovazione e la crescita sostenibile.
+          </p>
+
+          <div class="method-section__values" style="margin-top: 2rem;">
+            <div class="method-value reveal reveal-delay-3">
+              <div class="method-value__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+              </div>
+              <div class="method-value__text">
+                <h4>Persone al centro</h4>
+                <p>Il team è il nostro asset più prezioso. Investiamo in formazione continua e benessere professionale.</p>
+              </div>
+            </div>
+            <div class="method-value reveal reveal-delay-4">
+              <div class="method-value__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline><polyline points="17 6 23 6 23 12"></polyline></svg>
+              </div>
+              <div class="method-value__text">
+                <h4>Miglioramento continuo</h4>
+                <p>Ogni processo è ottimizzabile. La filosofia Kaizen ci guida nel trovare ogni giorno soluzioni più efficaci.</p>
+              </div>
+            </div>
+            <div class="method-value reveal reveal-delay-5">
+              <div class="method-value__icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+              </div>
+              <div class="method-value__text">
+                <h4>Qualità e conformità</h4>
+                <p>Ogni attività rispetta i più alti standard qualitativi e le normative EMA/AIFA vigenti.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Grafico cerchi decorativi -->
+        <div class="method-graphic reveal-scale" aria-hidden="true">
+          <div class="method-circle">
+            <div class="method-circle__outer"></div>
+            <div class="method-circle__mid"></div>
+            <div class="method-circle__center">M.A.C.<br>dal 2001</div>
+            <!-- Punti decorativi sul cerchio esterno -->
+            <div class="method-circle__dot" style="top:2%;left:48%;"></div>
+            <div class="method-circle__dot" style="top:48%;right:2%;background:var(--color-accent)"></div>
+            <div class="method-circle__dot" style="bottom:2%;left:48%;background:var(--color-primary-dark)"></div>
+            <div class="method-circle__dot" style="top:48%;left:2%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       6. DATI AGGIUNTIVI
+       ============================================================ -->
+  <section class="section section--bg" aria-labelledby="dati-title">
+    <div class="container">
+      <div class="text-center mb-8">
+        <span class="section-label section-label--primary reveal">I nostri risultati</span>
+        <h2 class="reveal reveal-delay-1" id="dati-title">Numeri che parlano da soli</h2>
+      </div>
+      <div class="grid-3" style="margin-top: 2rem;">
+        <div class="card text-center reveal">
+          <div class="stats-bar__number text-primary" data-count="20" data-prefix="+" data-suffix="%" style="font-size:clamp(2rem,4vw,3.5rem);margin-bottom:.5rem">+20%</div>
+          <h4 style="font-size:1rem;margin-bottom:.5rem">Crescita del team</h4>
+          <p style="font-size:.875rem;max-width:100%">Negli ultimi 3 anni il nostro team è cresciuto del 20% per rispondere alla domanda del mercato.</p>
+        </div>
+        <div class="card text-center reveal reveal-delay-1">
+          <div class="stats-bar__number text-primary" data-count="15000" data-prefix="+" style="font-size:clamp(2rem,4vw,3.5rem);margin-bottom:.5rem">+15k</div>
+          <h4 style="font-size:1rem;margin-bottom:.5rem">ICSRs gestiti</h4>
+          <p style="font-size:.875rem;max-width:100%">Oltre 15.000 Individual Case Safety Reports processati con accuratezza e nei tempi regolatori previsti.</p>
+        </div>
+        <div class="card text-center reveal reveal-delay-2">
+          <div class="stats-bar__number text-primary" data-count="50" data-prefix="+" style="font-size:clamp(2rem,4vw,3.5rem);margin-bottom:.5rem">+50</div>
+          <h4 style="font-size:1rem;margin-bottom:.5rem">Report aggregati</h4>
+          <p style="font-size:.875rem;max-width:100%">PSUR, PBRER e RMP redatti e sottomessi alle autorità competenti con zero rilievi critici.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       7. CTA BANNER #1
+       ============================================================ -->
+  <section class="cta-banner" aria-labelledby="cta1-title">
+    <div class="container">
+      <div class="cta-banner__inner">
+        <span class="section-label reveal">Iniziamo a lavorare insieme</span>
+        <h2 class="reveal reveal-delay-1" id="cta1-title">Pronti a supportare la vostra azienda</h2>
+        <p class="reveal reveal-delay-2">Contattate il nostro team oggi per una consulenza personalizzata. Valutiamo insieme le vostre esigenze e progettiamo la soluzione migliore.</p>
+        <div class="cta-banner__actions reveal reveal-delay-3">
+          <a href="contatti.html" class="btn btn--white btn--lg">Contattaci oggi</a>
+          <a href="servizi.html" class="btn btn--outline-white btn--lg">Vedi i servizi</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       8. BLOG PREVIEW
+       ============================================================ -->
+  <section class="section" id="blog-home" aria-labelledby="blog-title">
+    <div class="container">
+      <div class="text-center mb-8">
+        <span class="section-label section-label--primary reveal">Blog e Rubriche</span>
+        <h2 class="reveal reveal-delay-1" id="blog-title">Approfondimenti dal mondo della farmacovigilanza</h2>
+        <p class="reveal reveal-delay-2" style="margin:0 auto 1rem;">
+          Seguici su Instagram e LinkedIn per aggiornamenti normativi, guide pratiche e approfondimenti sul settore farmaceutico.
+        </p>
+      </div>
+
+      <!-- Le card vengono generate dinamicamente da blog.js -->
+      <div id="blog-preview" class="grid-3" style="margin-top:2rem;">
+        <!-- Placeholder statico prima del caricamento JS -->
+        <div class="blog-card" aria-hidden="true" style="min-height:300px;background:var(--color-border);border-radius:16px;opacity:.3"></div>
+        <div class="blog-card" aria-hidden="true" style="min-height:300px;background:var(--color-border);border-radius:16px;opacity:.2"></div>
+        <div class="blog-card" aria-hidden="true" style="min-height:300px;background:var(--color-border);border-radius:16px;opacity:.1"></div>
+      </div>
+
+      <div class="text-center mt-8 reveal">
+        <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;align-items:center;">
+          <a href="blog.html" class="btn btn--outline">Vedi tutti i post</a>
+          <a href="https://www.instagram.com/medafconsulting/" target="_blank" rel="noopener" class="btn btn--outline" style="gap:.5rem">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+            Instagram
+          </a>
+          <a href="https://www.linkedin.com/company/med-af-consulting" target="_blank" rel="noopener" class="btn btn--outline" style="gap:.5rem">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+            LinkedIn
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       9. FAQ PREVIEW
+       ============================================================ -->
+  <section class="faq-section section--bg" aria-labelledby="faq-title">
+    <div class="container">
+      <div class="faq-section__header">
+        <span class="section-label section-label--primary reveal">Domande frequenti</span>
+        <h2 class="reveal reveal-delay-1" id="faq-title">Hai domande?</h2>
+        <p class="reveal reveal-delay-2">Ecco le risposte alle domande che ci vengono poste più spesso. Per approfondire visita la pagina FAQ completa.</p>
+      </div>
+
+      <div class="accordion" role="list">
+        <div class="accordion__item" role="listitem">
+          <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-1-body">
+            Cos'è la farmacovigilanza e perché è obbligatoria?
+            <svg class="accordion__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+          </button>
+          <div class="accordion__body" id="faq-1-body">
+            <div class="accordion__content">
+              <p>La farmacovigilanza è la scienza e l'insieme delle attività relative all'identificazione, valutazione, comprensione e prevenzione degli effetti avversi dei medicinali. È obbligatoria per tutti i titolari di Autorizzazione all'Immissione in Commercio (AIC) ai sensi del Regolamento (UE) No 726/2004 e della Direttiva 2001/83/CE, con le modifiche introdotte dal Regolamento (UE) No 1235/2010.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion__item" role="listitem">
+          <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-2-body">
+            Cosa fa un EU-QPPV e chi è obbligato ad averlo?
+            <svg class="accordion__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+          </button>
+          <div class="accordion__body" id="faq-2-body">
+            <div class="accordion__content">
+              <p>Il Qualified Person for Pharmacovigilance (EU-QPPV) è la figura responsabile dell'implementazione e del mantenimento del sistema di farmacovigilanza per conto del titolare AIC. È obbligatoria per tutti i titolari di AIC nell'Unione Europea. Deve risiedere nell'UE e avere qualifiche adeguate nel campo medico o farmaceutico. MAC offre il servizio di EU-QPPV esterna per aziende di ogni dimensione.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="accordion__item" role="listitem">
+          <button class="accordion__trigger" aria-expanded="false" aria-controls="faq-3-body">
+            Come posso iniziare a lavorare con Medical Affairs Consulting?
+            <svg class="accordion__icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+          </button>
+          <div class="accordion__body" id="faq-3-body">
+            <div class="accordion__content">
+              <p>È semplice: compilate il form di contatto nella sezione Clienti indicando i servizi di vostro interesse. Il nostro team vi contatterà entro 24-48 ore lavorative per una prima consulenza gratuita. Valuteremo insieme le vostre esigenze e vi proporremo una soluzione su misura per la vostra azienda.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-8 reveal">
+        <a href="faq.html" class="btn btn--outline">Vedi tutte le FAQ</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       10. CTA BANNER #2 (pre-footer)
+       ============================================================ -->
+  <section class="cta-banner" style="background:var(--color-primary-dark);" aria-labelledby="cta2-title">
+    <div class="container">
+      <div class="cta-banner__inner">
+        <span class="section-label reveal" style="color:rgba(255,255,255,.6)">Contatti</span>
+        <h2 class="reveal reveal-delay-1" id="cta2-title">Lavoriamo insieme per la sicurezza dei pazienti</h2>
+        <p class="reveal reveal-delay-2">
+          Contatti: <a href="mailto:contactus@med-af-consulting.it" style="color:#fff;text-decoration:underline">contactus@med-af-consulting.it</a>
+          &nbsp;·&nbsp;
+          <a href="mailto:info@med-af-consulting.it" style="color:#fff;text-decoration:underline">info@med-af-consulting.it</a>
+        </p>
+        <div class="cta-banner__actions reveal reveal-delay-3">
+          <a href="contatti.html" class="btn btn--white btn--lg">Scrivici ora</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============================================================
+     FOOTER
+     ============================================================ -->
+<footer class="footer" aria-labelledby="footer-heading">
+  <h2 id="footer-heading" class="sr-only">Footer</h2>
+  <div class="container">
+    <div class="footer__top">
+      <!-- Brand -->
+      <div class="footer__brand">
+        <a href="index.html" aria-label="Medical Affairs Consulting — Home">
+          <img src="img/mac-logo.png" alt="MAC — Medical Affairs Consulting" width="160" height="38" style="filter:brightness(0) invert(1)">
+        </a>
+        <p>Il vostro partner di riferimento per farmacovigilanza, informazione medica e consulenza Kaizen. Dal 2001.</p>
+        <div class="footer__social" aria-label="Social media">
+          <a href="https://www.linkedin.com/company/med-af-consulting" target="_blank" rel="noopener" aria-label="LinkedIn">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+          </a>
+          <a href="https://www.instagram.com/medafconsulting/" target="_blank" rel="noopener" aria-label="Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Servizi -->
+      <div class="footer__col">
+        <h5>Servizi</h5>
+        <nav class="footer__links" aria-label="Link servizi">
+          <a href="servizi.html#farmacovigilanza">Farmacovigilanza</a>
+          <a href="servizi.html#rapporti-periodici">Rapporti periodici</a>
+          <a href="servizi.html#informazione-medica">Informazione Medica</a>
+          <a href="servizi.html#qualita">Qualità e Compliance</a>
+          <a href="servizi.html#kaizen">Consulenza Kaizen</a>
+        </nav>
+      </div>
+
+      <!-- Azienda -->
+      <div class="footer__col">
+        <h5>Azienda</h5>
+        <nav class="footer__links" aria-label="Link azienda">
+          <a href="chi-siamo.html">Chi siamo</a>
+          <a href="calendario.html">Calendario eventi</a>
+          <a href="blog.html">Blog</a>
+          <a href="lavora-con-noi.html">Lavora con noi</a>
+          <a href="faq.html">FAQ</a>
+        </nav>
+      </div>
+
+      <!-- Contatti -->
+      <div class="footer__col">
+        <h5>Contatti</h5>
+        <address style="font-style:normal;">
+          <div class="footer__contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <a href="mailto:contactus@med-af-consulting.it">contactus@med-af-consulting.it</a>
+          </div>
+          <div class="footer__contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            <a href="mailto:info@med-af-consulting.it">info@med-af-consulting.it</a>
+          </div>
+          <div class="footer__contact-item">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+            <span>Corso Italia, 39 – Saronno (VA)</span>
+          </div>
+        </address>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <p>© 2026 Medical Affairs Consulting S.r.l. — P.IVA [in aggiornamento] — Tutti i diritti riservati</p>
+      <nav class="footer__bottom-links" aria-label="Link legali">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="cookie.html">Cookie Policy</a>
+        <a href="en/index.html" lang="en">English</a>
+      </nav>
+    </div>
+  </div>
+</footer>
+
+<!-- ============================================================
+     COOKIE BANNER
+     ============================================================ -->
+<div class="cookie-banner" role="dialog" aria-label="Consenso cookie" aria-live="polite">
+  <p>
+    Utilizziamo cookie tecnici necessari al funzionamento del sito. Per maggiori informazioni consulta la nostra
+    <a href="cookie.html">Cookie Policy</a>.
+  </p>
+  <div class="cookie-banner__actions">
+    <button class="btn btn--outline-white btn--sm" data-cookie-decline>Rifiuta</button>
+    <button class="btn btn--white btn--sm" data-cookie-accept>Accetta</button>
+  </div>
+</div>
+
+<!-- JavaScript -->
+<script src="js/main.js"></script>
+<script src="js/blog.js"></script>
+</body>
+</html>
